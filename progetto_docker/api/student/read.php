@@ -6,7 +6,7 @@ header("Content-Type: application/json; charset=UTF-8");
 
 // include database and object files
 include_once '../../config/connectDB.php';
-include_once '../../object/student.php';
+include_once '../../object/studenti.php';
 
 // instantiate database and studente object
 $database = new Db();
